@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Vagas do Estacionamento</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
+    <body>  
+        <div class="container">
         <h1>Vagas do Estacionamento</h1>
 
         <nav class="menu">
+            <div class="botoes">
             <a href="index.html">Listar Vagas</a>
             <a href="cadastro.html">Cadastrar Reserva</a>
+            </div>
         </nav>
 
-        <table border="1">
+        <div class="tabela">
+        <table id="tabelaVagas">
             <thead>
                 <tr>
                     <th>Vaga</th>
@@ -26,7 +30,16 @@
 
             </tbody>
         </table>
+        </div>
 
         <script src="js/vagas.js"></script>
+        </div>
+        <footer>
+            <p>Sistema de Controle de Vagas de Estacionamento</p>
+            <p>Desenvolvido por Vinícius Moraes Lago</p>
+            <p>Curso de Análise e Desenvolvimento de Sistemas</p>
+            <p>© 2026</p>
+        </footer>
     </body>
+
 </html>

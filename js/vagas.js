@@ -11,13 +11,13 @@ for(let i=1;i<=10;i++){
         linha.innerHTML = `
         <td>${i}</td>
         <td>${vaga.placa}</td>
-        <td> style="color:red">Ocupada</td>
+        <td class="ocupada"><strong>Ocupada<strong/></td>
         `;
     }else{
         linha.innerHTML = `
         <td>${i}</td>
-        <td>-</td>
-        <td> style="color:green">Disponível</td>
+        <td>${"-"}</td>
+        <td class="disponivel"><strong>Disponível</strong></td>
         `;
     }
     tabela.appendChild(linha);
